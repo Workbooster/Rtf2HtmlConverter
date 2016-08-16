@@ -1,20 +1,27 @@
-# RtfDomParser (a.k.a. DCSoft.RTF and XDesigner.RTF) 
-**RtfDomParser (a.k.a. DCSoft.RTF and XDesigner.RTF)** is an open source C# library for parsing **RTF** documents and generating RTF DOM Tree.
+Rtf2HtmlConverter
+=================================== 
+**Rtf2HtmlConverter based on [[RtfDomParser a.k.a. DCSoft.RTF and XDesigner.RTF)](https://github.com/SourceCodeBackup/RtfDomParser)** is a converter for RTF rich text contents that generates HTML code from the RTF.
 
-Initially the project was started by **yuansfu**, last updated on `Apr 6, 2013` and was located on
-- http://sourceforge.net/projects/rtfdomparser/ and
-- https://rdp.codeplex.com/
+## Usage
 
-The development of the project is dead so here I will continue to support the code and will provide NuGet packages for easier installation.
+```csharp
+RTF2HTMLConverter.Convert(
+@"{\rtf1\ansi\deff0
+{\colortbl;\red0\green0\blue0;\red255\green0\blue0;}
+\cf2 Hello \cf1 World
+}");
+```
 
-## Build
+## License
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ts22h5vdkjej9j25?svg=true)](https://ci.appveyor.com/project/NikolayIT/rtfdomparser)
+This project is licensed under the terms of the MIT License (also known as X11-License). See LICENSE for more information.
 
-**NuGet:** https://www.nuget.org/packages/RtfDomParser/
+## Contact
 
-## Features
-* Parse RTF and generate dom tree.
-* Support image , table , multi-nested table , textbox , shape , cell merge.
-* Can parse huge rtf document more than 100MB.
-* Easy to .NET programming.
+Workbooster GmbH<br/>
+Obermülistr. 85<br/>
+8320 Fehraltorf (Switzerland)<br/>
+
+Web: www.workbooster.ch<br/>
+E-Mail: info@workbooster.ch<br/>
+Phone: +41 (0)44 515 48 80<br/>

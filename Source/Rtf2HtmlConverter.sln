@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtf2HtmlConverter", "Rtf2HtmlConverter\Rtf2HtmlConverter.csproj", "{ADB7D06E-179A-463B-B4E5-E0BC806241A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RtfDomParser", "RtfDomParser\RtfDomParser.csproj", "{D35F9B37-CF93-48AE-9A1A-3A99930F04FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtf2HtmlConverter.Demo", "Rtf2HtmlConverter.Demo\Rtf2HtmlConverter.Demo.csproj", "{7C4E3280-9D56-4E19-A12C-D92E72816F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB7D06E-179A-463B-B4E5-E0BC806241A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB7D06E-179A-463B-B4E5-E0BC806241A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB7D06E-179A-463B-B4E5-E0BC806241A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB7D06E-179A-463B-B4E5-E0BC806241A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35F9B37-CF93-48AE-9A1A-3A99930F04FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35F9B37-CF93-48AE-9A1A-3A99930F04FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35F9B37-CF93-48AE-9A1A-3A99930F04FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35F9B37-CF93-48AE-9A1A-3A99930F04FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4E3280-9D56-4E19-A12C-D92E72816F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4E3280-9D56-4E19-A12C-D92E72816F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4E3280-9D56-4E19-A12C-D92E72816F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4E3280-9D56-4E19-A12C-D92E72816F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
